@@ -1,19 +1,45 @@
+body {
+  background: linear-gradient(#5d8aa6, #222222) fixed;
+}
+
+ul {
+  list-style: none;
+}
+
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+  color: white;
+  background:#324856;
 }
 
-.label {
+/* .label {
   font-weight: bold;
-}
+} */
 
-.create-update-form {
+/* .create-update-form {
   padding: 5px;
   margin: 5px;
   background: aqua;
-}
+} */
 
 .form-group {
   margin-bottom: 5px;
 }
+
+#subBox {
+  margin-top: -270px;
+  margin-bottom: 100px;
+}
+
+input {
+  width: 200px;
+  margin-left: 50px;
+}
+
+/* br {
+  display: block;
+  content: "";
+  margin-top: 5px;
+} */
+

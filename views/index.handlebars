@@ -1,38 +1,65 @@
-<h1>Burgers!</h1>
 
-<h2>Burgers that are not devoured!</h2>
+<div class="container">
+  <div class="row">
+    <div class="col-12 text-center">
+      <img src="/assets/images/BDdiscolorA.png">
 
-<ul>
-  {{#each burgers}}
-    {{#unless devoured}}
-      {{> burgers/burger-block devoured=true}}
-    {{/unless}}
-  {{/each}}
-</ul>
-
-<h2>Burgers that are devoured!</h2>
-
-<ul>
-  {{#each burgers}}
-    {{#if devoured}}
-      {{> burgers/burger-block devoured=false}}
-    {{/if}}
-  {{/each}}
-</ul>
-
-<h2>Add a Burger</h2>
-<form class="create-form">
-
-  <div class="form-group">
-    <label for="ca">Burger Name:</label>
-    <input type="text" id="ca" name="burger_name">
+    </div>
   </div>
 
-  <div class="form-group">
-    <label for="devoured">Devoured?</label><br>
-    <input type="radio" name="devoured" value="1" checked> Devoured!<br>
-    <input type="radio" name="devoured" value="0"> Eat it!
+  <div id="subBox" class="row">
+
+    <div class="col-12 text-center">
+
+      <form class="create-form">
+        <div class="form-group">
+          <label for="ca"></label>
+          <input type="text" id="ca" name="burger_name" placeholder="Name Your Burger">
+                  <button type="submit">Summon Burger</button>
+        </div>
+        {{!-- <div class="form-group">
+          <label for="devoured">Devoured?</label><br>
+          <input type="radio" name="devoured" value="1" checked> Devoured!<br>
+          <input type="radio" name="devoured" value="0"> Eat it!
+        </div> --}}
+        {{!-- <button type="submit">Summon Burger</button> --}}
+      </form>
+
+    </div>
+
+  </div>
+      
+  <div class="row">
+    <div class="col-5">
+      <div class="text-left" style="padding-left: 45px;">
+        <h5>CONSUME</h5>
+      </div>
+      <div class="text-right">
+        <ul>
+          {{#each burgers}}
+            {{#unless devoured}}
+              {{> burgers/burger-block devoured=true}}
+            {{/unless}}
+          {{/each}}
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-2 text-center">
+
+    </div>
+
+    <div class="col-5 text-right">
+      <h5>DESTROYED</h5>
+      <ul>
+        {{#each burgers}}
+          {{#if devoured}}
+            {{> burgers/burger-block devoured=false}}
+          {{/if}}
+        {{/each}}
+      </ul>
+    </div>
+
   </div>
 
-  <button type="submit">Add Burger</button>
-</form>
+</div>
