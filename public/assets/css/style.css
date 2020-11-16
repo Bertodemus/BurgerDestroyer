@@ -7,21 +7,13 @@ ul {
 }
 
 li {
+  border-radius: 15px;
   padding: 5px;
-  margin: 5px;
+  margin: auto;
   color: white;
-  background:#324856;
+  background:#66512a;
+  width: 350px;
 }
-
-/* .label {
-  font-weight: bold;
-} */
-
-/* .create-update-form {
-  padding: 5px;
-  margin: 5px;
-  background: aqua;
-} */
 
 .form-group {
   margin-bottom: 5px;
@@ -29,7 +21,7 @@ li {
 
 #subBox {
   margin-top: -270px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 input {
@@ -37,9 +29,30 @@ input {
   margin-left: 50px;
 }
 
-/* br {
-  display: block;
-  content: "";
-  margin-top: 5px;
-} */
+.buntop {
+  margin-bottom: -5px;
+  padding-left: 45px;
+}
 
+.bunbutt {
+  margin-top: -20px;
+  padding-left: 45px;
+}
+.container {
+  min-width: 992px;
+}
+
+@media (max-width: 1200px) {
+  #subBox {
+    margin-bottom: 80px;
+  }
+
+  .buntop {
+    padding-left: 35px;
+  }
+
+  .bunbutt {
+    padding-left: 40px;
+  }
+
+}
