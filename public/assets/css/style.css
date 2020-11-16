@@ -11,8 +11,25 @@ li {
   padding: 5px;
   margin: auto;
   color: white;
-  background:#66512a;
-  width: 350px;
+  /* background:#66512a; */
+  width: 330px;
+  height: 66px;
+}
+
+[data-beef*="true"] {
+  margin-top: -2px;
+  margin-bottom: -5px;
+  padding-top: 12px;
+  padding-right: 18px;
+  background-image: url("/assets/images/freshbeef.png");
+}
+
+[data-beef*="false"] {
+  margin-top: -2px;
+  margin-bottom: -5px;
+  padding-top: 12px;
+  padding-right: 18px;
+  background-image: url("/assets/images/deadbeef.png");
 }
 
 .form-group {
