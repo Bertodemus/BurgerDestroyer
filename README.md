@@ -1,6 +1,6 @@
 ![logo](./public/assets/images/Rmlogo.png)
 
-Burger Destroyer is a burger logger that allows users to input the names of burgers that they would like to eat! Once you have devoured that burger, you can mark it off your list! The log is persistent, which makes the information available to you when it is needed.
+Burger Destroyer is a burger logger that allows users to input the names of burgers that they would like to eat! Once they have devoured that burger, they can mark it off their list! The log is persistent, which makes the information available to them whenever they need it.
 
 
 ## Table of Contents
@@ -20,7 +20,7 @@ Burger Destroyer is a burger logger that allows users to input the names of burg
 
 ## Usage
 
-The site is fairly straightforward. You are allowed to input the name of a burger that you would like to consume, which gets logged in the left column under `CONSUME`. From there, you have a choice to `DEVOUR` the burger, which will move it over to the right column titled `DEVOURED`. At any point, you can decide to `BANISH` a burger, which will remove it from the list entirely.
+The site is fairly straightforward. Users are allowed to input the name of a burger that they would like to consume, which gets logged in the left column under `CONSUME`. From there, they have a choice to `DEVOUR` the burger, which will move it over to the right column titled `DEVOURED`. At any point, they can decide to `BANISH` a burger, which will remove it from the list entirely.
 
 ## Screenshots
 
