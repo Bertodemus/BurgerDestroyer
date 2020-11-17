@@ -47,16 +47,25 @@ input {
 }
 
 .buntop {
-  margin-bottom: -5px;
+  margin-bottom: -10px;
   padding-left: 45px;
 }
 
 .bunbutt {
-  margin-top: -20px;
+  margin-top: -25px;
   padding-left: 45px;
 }
 .container {
   min-width: 992px;
+}
+
+a {
+  color: gray;
+}
+
+a:hover {
+  color: wheat;
+
 }
 
 @media (max-width: 1200px) {
