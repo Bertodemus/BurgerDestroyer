@@ -16,7 +16,7 @@ Burger Destroyer is a burger logger that allows users to input the names of burg
 * Link to the Heroku deployed application - [Burger Destroyer](https://powerful-cliffs-00589.herokuapp.com/)
 * Simple application powered by [Node.js](https://nodejs.org/en/), [Express](http://expressjs.com/) , [MySql](https://www.mysql.com/) , [Handlebars](https://handlebarsjs.com/)
 * Built to follow the [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) (model-view-controller) software design pattern
-* All illustrations created by `BERTO` (www.robertorubet.com)
+* I created all of the illustrations - more examples of my artwork `BERTO` (www.robertorubet.com)
 
 ## Usage
 
